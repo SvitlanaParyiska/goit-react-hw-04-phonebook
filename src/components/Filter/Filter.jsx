@@ -1,7 +1,7 @@
 import React from 'react';
 import { Input, Title } from './Filter.styled';
 
-const Filter = ({ value, filterContact }) => {
+const Filter = ({ filterContact }) => {
   return (
     <div>
       <Title>Filter by name</Title>
