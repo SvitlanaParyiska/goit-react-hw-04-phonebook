@@ -19,7 +19,6 @@ export const App = () => {
     JSON.parse(localStorage.getItem('contacts')) || [...contactsDefault]
   );
 
-  console.log(JSON.parse(localStorage.getItem('contacts')));
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
